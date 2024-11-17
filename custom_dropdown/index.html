@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Custom dropdown</title>
+  </head>
+  <body>
+    <div class="dropdown">
+      <div class="dropdown-header" id="dropdown-header">
+        <span class="dropdown-placeholder">Select an Item</span>
+        <div class="dropdown-actions">
+          <button
+            class="clear-selection"
+            id="clear-selection"
+            title="Clear Selection"
+          >
+            ✖
+          </button>
+          <span class="dropdown-arrow">▼</span>
+        </div>
+      </div>
+      <ul class="dropdown-list" id="dropdown-list">
+        <li class="dropdown-item" data-value="First Item">First Item</li>
+        <li class="dropdown-item" data-value="Second Item">Second Item</li>
+        <li class="dropdown-item" data-value="Third Item">Third Item</li>
+        <li class="dropdown-item" data-value="Fourth Item">Fourth Item</li>
+        <li class="dropdown-item" data-value="Fifth Item">Fifth Item</li>
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
